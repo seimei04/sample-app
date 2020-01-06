@@ -12,7 +12,7 @@
 ```
 $ git clone https://github.com/sample-874/sample-app.git
 ```
-yyyyyyyyyyy
+xxxxxxxxxxxxxxxxxxxaaaaaaa
 
 
 上記のコマンド実行（リポジトリをクローン）後、
