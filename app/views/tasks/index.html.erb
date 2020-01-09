@@ -1,0 +1,93 @@
+ <% provide(:title, 'Task') %>
+ 
+ <div class="container">
+      
+<h1><%=current_user.name%> のタスク一覧</h1>
+
+
+<div class="row">
+  <div class="col-md-10 col-md-offset-1">
+    <a class="btn btn-lg btn-primary pull-right" href="/users/1/tasks/new">タスク新規作成</a>
+    <table class="table table-hover" id="table-tasks">
+      <thead>
+        <tr>
+          <th>名称</th>
+          <th>作成日</th>
+          <th></th>
+        </tr>
+      </thead>
+
+      <tbody>
+          <tr>
+            <td><a id="task-name" href="/users/1/tasks/361">タスク50</a></td>
+            <td>2020/01/06 17:47</td>
+            <td>
+              <a class="btn btn-success" href="/users/1/tasks/361/edit">編集</a>
+              <a data-confirm="「タスク50」を削除します。よろしいですか？" class="btn btn-danger" rel="nofollow" data-method="delete" href="/users/1/tasks/361">削除</a>
+            </td>
+          </tr>
+          <tr>
+            <td><a id="task-name" href="/users/1/tasks/348">リンクを更新</a></td>
+            <td>2019/12/08 19:04</td>
+            <td>
+              <a class="btn btn-success" href="/users/1/tasks/348/edit">編集</a>
+              <a data-confirm="「リンクを更新」を削除します。よろしいですか？" class="btn btn-danger" rel="nofollow" data-method="delete" href="/users/1/tasks/348">削除</a>
+            </td>
+          </tr>
+          <tr>
+            <td><a id="task-name" href="/users/1/tasks/346">編集</a></td>
+            <td>2019/12/07 14:41</td>
+            <td>
+              <a class="btn btn-success" href="/users/1/tasks/346/edit">編集</a>
+              <a data-confirm="「編集」を削除します。よろしいですか？" class="btn btn-danger" rel="nofollow" data-method="delete" href="/users/1/tasks/346">削除</a>
+            </td>
+          </tr>
+          <tr>
+            <td><a id="task-name" href="/users/1/tasks/345">aaaa</a></td>
+            <td>2019/12/07 14:38</td>
+            <td>
+              <a class="btn btn-success" href="/users/1/tasks/345/edit">編集</a>
+              <a data-confirm="「aaaa」を削除します。よろしいですか？" class="btn btn-danger" rel="nofollow" data-method="delete" href="/users/1/tasks/345">削除</a>
+            </td>
+          </tr>
+          <tr>
+            <td><a id="task-name" href="/users/1/tasks/340">休日出勤</a></td>
+            <td>2019/11/25 20:15</td>
+            <td>
+              <a class="btn btn-success" href="/users/1/tasks/340/edit">編集</a>
+              <a data-confirm="「休日出勤」を削除します。よろしいですか？" class="btn btn-danger" rel="nofollow" data-method="delete" href="/users/1/tasks/340">削除</a>
+            </td>
+          </tr>
+          <tr>
+            <td><a id="task-name" href="/users/1/tasks/339">休日出勤</a></td>
+            <td>2019/11/23 05:08</td>
+            <td>
+              <a class="btn btn-success" href="/users/1/tasks/339/edit">編集</a>
+              <a data-confirm="「休日出勤」を削除します。よろしいですか？" class="btn btn-danger" rel="nofollow" data-method="delete" href="/users/1/tasks/339">削除</a>
+            </td>
+          </tr>
+          <tr>
+            <td><a id="task-name" href="/users/1/tasks/336">abc</a></td>
+            <td>2019/11/16 15:56</td>
+            <td>
+              <a class="btn btn-success" href="/users/1/tasks/336/edit">編集</a>
+              <a data-confirm="「abc」を削除します。よろしいですか？" class="btn btn-danger" rel="nofollow" data-method="delete" href="/users/1/tasks/336">削除</a>
+            </td>
+          </tr>
+          <tr>
+            <td><a id="task-name" href="/users/1/tasks/335">qqqqqqqqq</a></td>
+            <td>2019/11/13 22:52</td>
+            <td>
+              <a class="btn btn-success" href="/users/1/tasks/335/edit">編集</a>
+              <a data-confirm="「qqqqqqqqq」を削除します。よろしいですか？" class="btn btn-danger" rel="nofollow" data-method="delete" href="/users/1/tasks/335">削除</a>
+            </td>
+          </tr>
+          
+      </tbody>
+    </table>
+  </div>    
+</div>
+      
+    </div>
+  
+
